@@ -1,0 +1,22 @@
+{
+  "name": "u-develop-it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch":"nodemon server.js",
+    "start":"node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {
+    "jest": "^27.2.5"
+  }
+}
